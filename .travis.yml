@@ -7,7 +7,7 @@ env:
     - DOKKU_SOCK_PATH=/var/run/dokku-daemon/dokku-daemon.sock
   matrix:
     - DOKKU_VERSION=master
-    - DOKKU_VERSION=0.18.3
+    - DOKKU_VERSION=0.21.4
 before_install:
   - sudo -E make setup-travis
 install:
